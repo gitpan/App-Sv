@@ -1,22 +1,46 @@
 ---
-abstract: 'Simple process supervisor'
+abstract: 'Event-based multi-process supervisor'
 author:
-  - 'Pedro Melo <melo@simplicidade.org>'
   - 'Gelu Lupas <gelu@devnull.ro>'
+  - 'Pedro Melo <melo@simplicidade.org>'
 build_requires:
   Test::Deep: 0
   Test::Fatal: 0
   Test::More: 0.98
 configure_requires:
+  CPAN::Meta: 0
+  CPAN::Meta::Prereqs: 0
   ExtUtils::MakeMaker: 6.30
+  Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300035, CPAN::Meta::Converter version 2.120921'
-license: artistic_2
+generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132140'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: App-Sv
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+provides:
+  App::Sv:
+    file: lib/App/Sv.pm
+    version: 0.006
 requires:
   AnyEvent: 0
   YAML::Tiny: 0
-version: 0.005
+resources:
+  bugtracker: https://github.com/ggl/App-Sv/issues
+  homepage: https://github.com/ggl/App-Sv
+  repository: https://github.com/ggl/App-Sv.git
+version: 0.006
+x_authority: cpan:GVL
+x_contributors:
+  - 'Gelu Lupas <gelu@jinx>'
+  - 'Gelu Lupas <gelu@devull.ro>'
