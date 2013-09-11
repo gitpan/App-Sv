@@ -10,7 +10,6 @@ build_requires:
 configure_requires:
   CPAN::Meta: 0
   CPAN::Meta::Prereqs: 0
-  ExtUtils::MakeMaker: 6.30
   Module::Build: 0.38
 dynamic_config: 0
 generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132140'
@@ -31,16 +30,20 @@ no_index:
 provides:
   App::Sv:
     file: lib/App/Sv.pm
-    version: 0.006
+    version: 0.007
+recommends:
+  EV: 0
 requires:
-  AnyEvent: 0
+  AnyEvent: 6.01
+  Carp: 0
+  POSIX: 0
   YAML::Tiny: 0
+  perl: 5.008001
+  strict: 0
+  warnings: 0
 resources:
   bugtracker: https://github.com/ggl/App-Sv/issues
   homepage: https://github.com/ggl/App-Sv
   repository: https://github.com/ggl/App-Sv.git
-version: 0.006
+version: 0.007
 x_authority: cpan:GVL
-x_contributors:
-  - 'Gelu Lupas <gelu@jinx>'
-  - 'Gelu Lupas <gelu@devull.ro>'

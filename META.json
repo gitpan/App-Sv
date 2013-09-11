@@ -35,7 +35,6 @@
          "requires" : {
             "CPAN::Meta" : "0",
             "CPAN::Meta::Prereqs" : "0",
-            "ExtUtils::MakeMaker" : "6.30",
             "Module::Build" : "0.38"
          }
       },
@@ -48,16 +47,24 @@
          }
       },
       "runtime" : {
+         "recommends" : {
+            "EV" : "0"
+         },
          "requires" : {
-            "AnyEvent" : "0",
-            "YAML::Tiny" : "0"
+            "AnyEvent" : "6.01",
+            "Carp" : "0",
+            "POSIX" : "0",
+            "YAML::Tiny" : "0",
+            "perl" : "5.008001",
+            "strict" : "0",
+            "warnings" : "0"
          }
       }
    },
    "provides" : {
       "App::Sv" : {
          "file" : "lib/App/Sv.pm",
-         "version" : "0.006"
+         "version" : "0.007"
       }
    },
    "release_status" : "stable",
@@ -71,10 +78,6 @@
          "web" : "https://github.com/ggl/App-Sv"
       }
    },
-   "version" : "0.006",
-   "x_authority" : "cpan:GVL",
-   "x_contributors" : [
-      "Gelu Lupas <gelu@jinx>",
-      "Gelu Lupas <gelu@devull.ro>"
-   ]
+   "version" : "0.007",
+   "x_authority" : "cpan:GVL"
 }
