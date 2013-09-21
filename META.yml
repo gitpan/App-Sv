@@ -12,7 +12,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.5, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Minilla/v0.6.7, CPAN::Meta::Converter version 2.132140'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -30,7 +30,7 @@ no_index:
 provides:
   App::Sv:
     file: lib/App/Sv.pm
-    version: 0.007
+    version: 0.008
 recommends:
   EV: 0
 requires:
@@ -45,5 +45,5 @@ resources:
   bugtracker: https://github.com/ggl/App-Sv/issues
   homepage: https://github.com/ggl/App-Sv
   repository: https://github.com/ggl/App-Sv.git
-version: 0.007
+version: 0.008
 x_authority: cpan:GVL

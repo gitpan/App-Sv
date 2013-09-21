@@ -5,8 +5,10 @@
       "Pedro Melo <melo@simplicidade.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.6.5",
-   "license" : "unknown",
+   "generated_by" : "Minilla/v0.6.7",
+   "license" : [
+      "unknown"
+   ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
@@ -64,7 +66,7 @@
    "provides" : {
       "App::Sv" : {
          "file" : "lib/App/Sv.pm",
-         "version" : "0.007"
+         "version" : "0.008"
       }
    },
    "release_status" : "stable",
@@ -78,6 +80,6 @@
          "web" : "https://github.com/ggl/App-Sv"
       }
    },
-   "version" : "0.007",
+   "version" : "0.008",
    "x_authority" : "cpan:GVL"
 }
