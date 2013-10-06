@@ -6,6 +6,8 @@ bin/svc
 bin/svd
 cpanfile
 lib/App/Sv.pm
+lib/App/Sv/Log.pm
+lib/App/Sv/Util.pm
 t/01-new.t
 Build.PL
 META.yml
