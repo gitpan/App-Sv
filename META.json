@@ -5,7 +5,7 @@
       "Pedro Melo <melo@simplicidade.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.7.5",
+   "generated_by" : "Minilla/v0.8.0",
    "license" : [
       "artistic_2"
    ],
@@ -67,18 +67,18 @@
    "provides" : {
       "App::Sv" : {
          "file" : "lib/App/Sv.pm",
-         "version" : "0.010"
+         "version" : "0.011"
       },
-      "Sv::Command" : {
+      "App::Sv::Command" : {
          "file" : "lib/App/Sv/Command.pm"
       },
-      "Sv::Log" : {
+      "App::Sv::Log" : {
          "file" : "lib/App/Sv/Log.pm"
       },
-      "Sv::Socket" : {
+      "App::Sv::Socket" : {
          "file" : "lib/App/Sv/Socket.pm"
       },
-      "Sv::Util" : {
+      "App::Sv::Util" : {
          "file" : "lib/App/Sv/Util.pm"
       }
    },
@@ -93,6 +93,6 @@
          "web" : "https://github.com/ggl/App-Sv"
       }
    },
-   "version" : "0.010",
+   "version" : "0.011",
    "x_authority" : "cpan:GVL"
 }
