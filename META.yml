@@ -1,7 +1,7 @@
 ---
 abstract: 'Event-based multi-process supervisor'
 author:
-  - 'Gelu Lupas <gelu@devnull.ro>'
+  - 'Gelu Lupaş <gvl@cpan.org>'
   - 'Pedro Melo <melo@simplicidade.org>'
 build_requires:
   Test::Deep: 0
@@ -12,7 +12,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.8.0, CPAN::Meta::Converter version 2.132660'
+generated_by: 'Minilla/v0.9.0, CPAN::Meta::Converter version 2.132660'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -31,7 +31,7 @@ no_index:
 provides:
   App::Sv:
     file: lib/App/Sv.pm
-    version: 0.011
+    version: 0.012
   App::Sv::Command:
     file: lib/App/Sv/Command.pm
   App::Sv::Log:
@@ -41,7 +41,9 @@ provides:
   App::Sv::Util:
     file: lib/App/Sv/Util.pm
 recommends:
+  Async::Interrupt: 0
   EV: 0
+  Guard: 0
 requires:
   AnyEvent: 6.01
   Carp: 0
@@ -54,5 +56,5 @@ resources:
   bugtracker: https://github.com/ggl/App-Sv/issues
   homepage: https://github.com/ggl/App-Sv
   repository: https://github.com/ggl/App-Sv.git
-version: 0.011
+version: 0.012
 x_authority: cpan:GVL
