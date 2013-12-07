@@ -5,7 +5,7 @@
       "Pedro Melo <melo@simplicidade.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.9.0",
+   "generated_by" : "Minilla/v0.11.0",
    "license" : [
       "artistic_2"
    ],
@@ -69,7 +69,7 @@
    "provides" : {
       "App::Sv" : {
          "file" : "lib/App/Sv.pm",
-         "version" : "0.012"
+         "version" : "0.013"
       },
       "App::Sv::Command" : {
          "file" : "lib/App/Sv/Command.pm"
@@ -95,6 +95,6 @@
          "web" : "https://github.com/ggl/App-Sv"
       }
    },
-   "version" : "0.012",
+   "version" : "0.013",
    "x_authority" : "cpan:GVL"
 }
