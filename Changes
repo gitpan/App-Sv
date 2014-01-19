@@ -1,5 +1,9 @@
 Revision history for Perl module App::Sv
 
+0.014 2014-01-19T11:12:59Z
+  * Supervised services now run in their own process group
+  * Updated documentation and test suite
+
 0.013 2013-12-07T21:59:41Z
   * Fixed svc
 
